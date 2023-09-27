@@ -1,0 +1,56 @@
+/** @format */
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+input,
+select {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: none;
+}
+
+.btn-submit {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.btn-submit button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-submit button:hover {
+  cursor: pointer;
+  background-color: orangered;
+}

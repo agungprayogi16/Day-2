@@ -1,0 +1,48 @@
+/** @format */
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 5px;
+}
+
+.nav-left ul {
+  gap: 50px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left a:hover {
+  color: orangered;
+}
+
+.nav-right a {
+  list-style: none;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.nav-right a:hover {
+  background-color: orangered;
+}
+
+.nav-left img {
+  height: 30px;
+  width: 40px;
+}
